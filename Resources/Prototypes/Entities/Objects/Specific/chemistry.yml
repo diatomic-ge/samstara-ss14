@@ -407,7 +407,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 20
+        maxVol: 50
   - type: SolutionSpiker
     sourceSolution: food
   - type: DeleteOnTrigger
@@ -436,7 +436,7 @@
   name: pill canister
   id: PillCanister
   parent: BaseStorageItem
-  description: Holds up to 9 pills.
+  description: Holds up to 10 pills.
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pills_canister.rsi
@@ -447,7 +447,7 @@
     tags:
       - PillCanister
   - type: Storage
-    capacity: 9
+    capacity: 10
     quickInsert: true
     areaInsert: true
     areaInsertRadius: 1

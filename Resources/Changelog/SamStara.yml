@@ -11,3 +11,13 @@ Entries:
         type: Tweak
     id: 1
     time: '2023-12-24T00:16:58.562501019+00:00'
+  - author: Diatomic
+    changes:
+      - message: >-
+          Pill canisters can now hold up to 10 pills.
+        type: Tweak
+      - message: >-
+          Pills can now hold up to 50 doses of drugs so you can party as only the gods previously could.
+        type: Tweak
+    id: 2
+    time: '2023-12-24T00:24:17.893844126+00:00'
