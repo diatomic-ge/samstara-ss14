@@ -3,3 +3,9 @@
   name: Urist McFelinid
   parent: [MobFelinidBase, BaseMob]
   id: MobFelinid
+  components:
+    - type: InteractionPopup
+      successChance: 1
+      interactSuccessString: pat-success-generic
+      interactSuccessSound: /Audio/Effects/thudswoosh.ogg
+      messagePerceivedByOthers: pat-success-generic-others

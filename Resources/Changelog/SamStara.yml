@@ -1,0 +1,13 @@
+Name: SamStara
+Order: 3
+Entries:
+  - author: Diatomic
+    changes:
+      - message: >-
+          You can now pet felinids.
+        type: Tweak
+      - message: >-
+          The message for petting vulpkanin or felinids should now be grammatically correct.
+        type: Tweak
+    id: 1
+    time: '2023-12-24T00:16:58.562501019+00:00'

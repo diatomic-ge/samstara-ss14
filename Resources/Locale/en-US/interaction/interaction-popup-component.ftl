@@ -76,5 +76,5 @@ hugging-success-generic-target = { CAPITALIZE(THE($user)) } hugs you.
 
 ## Patting players
 pat-success-generic = You pet {THE($target)} soft fluffy head.
-pat-success-generic-others = { CAPITALIZE(THE($user)) } pets {THE($target)} soft fluffy head.
+pat-success-generic-others = { CAPITALIZE(THE($user)) } pets {THE($target)}'s soft fluffy head.
 pat-success-generic-target = { CAPITALIZE(THE($user)) } pets your soft fluffy head.

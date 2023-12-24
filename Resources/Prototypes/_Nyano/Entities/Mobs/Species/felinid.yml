@@ -43,6 +43,11 @@
         Blunt: 1
   - type: Stamina
   - type: PseudoItem
+  - type: InteractionPopup
+    successChance: 1
+    interactSuccessString: pat-success-generic
+    interactSuccessSound: /Audio/Effects/thudswoosh.ogg
+    messagePerceivedByOthers: pat-success-generic-others
   - type: SizeAttributeWhitelist
     tall: true
     tallscale: 1
