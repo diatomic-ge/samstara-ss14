@@ -38,3 +38,10 @@ Entries:
         type: Tweak
     id: 4
     time: '2023-12-26T19:15:24.957276935+00:00'
+  - author: Diatomic
+    changes:
+      - message: >-
+          Hydroponics scythes now may be put inside a botanical belt.
+        type: Tweak
+    id: 5
+    time: '2023-12-26T23:15:48.838251039+00:00'
