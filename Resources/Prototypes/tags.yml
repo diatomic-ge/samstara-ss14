@@ -146,6 +146,9 @@
   id: BorgMiningTorso
 
 - type: Tag
+  id: BorgModuleAny
+
+- type: Tag
   id: BorgModuleCargo
 
 - type: Tag

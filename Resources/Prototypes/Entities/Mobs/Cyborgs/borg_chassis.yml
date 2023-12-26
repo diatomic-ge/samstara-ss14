@@ -14,9 +14,10 @@
       map: ["light"]
       visible: false
   - type: BorgChassis
-    maxModules: 5
+    maxModules: 6
     moduleWhitelist:
       tags:
+      - BorgModuleAny
       - BorgModuleGeneric
     hasMindState: robot_e
     noMindState: robot_e_r
@@ -42,9 +43,10 @@
       map: ["light"]
       visible: false
   - type: BorgChassis
-    maxModules: 3
+    maxModules: 6
     moduleWhitelist:
       tags:
+      - BorgModuleAny
       - BorgModuleGeneric
       - BorgModuleCargo
     hasMindState: miner_e
@@ -69,9 +71,10 @@
       map: ["light"]
       visible: false
   - type: BorgChassis
-    maxModules: 3
+    maxModules: 6
     moduleWhitelist:
       tags:
+      - BorgModuleAny
       - BorgModuleGeneric
       - BorgModuleEngineering
     hasMindState: engineer_e
@@ -96,9 +99,10 @@
       map: ["light"]
       visible: false
   - type: BorgChassis
-    maxModules: 3
+    maxModules: 6
     moduleWhitelist:
       tags:
+      - BorgModuleAny
       - BorgModuleGeneric
       - BorgModuleJanitor
     hasMindState: janitor_e
@@ -123,9 +127,10 @@
       map: ["light"]
       visible: false
   - type: BorgChassis
-    maxModules: 3
+    maxModules: 6
     moduleWhitelist:
       tags:
+      - BorgModuleAny
       - BorgModuleGeneric
       - BorgModuleMedical
     hasMindState: medical_e
@@ -150,13 +155,13 @@
       map: ["light"]
       visible: false
   - type: BorgChassis
-    maxModules: 3
+    maxModules: 6
     moduleWhitelist:
       tags:
+      - BorgModuleAny
       - BorgModuleGeneric
       - BorgModuleService
     hasMindState: service_e
     noMindState: service_e_r
   - type: Construction
     node: service
-
