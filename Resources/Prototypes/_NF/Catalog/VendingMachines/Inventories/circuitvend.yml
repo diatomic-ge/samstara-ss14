@@ -1,7 +1,7 @@
 - type: vendingMachineInventory
   id: CircuitVendInventory
   startingInventory:
-##    SalvageExpeditionsComputerCircuitboard: 8
+    SalvageExpeditionsComputerCircuitboard: 8
     ComputerIFFCircuitboard: 4
     CrewMonitoringComputerCircuitboard: 6
     ResearchComputerCircuitboard: 12

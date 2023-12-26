@@ -34,6 +34,7 @@
     - BaseStationRenameFaxes
     - BaseStationRenameWarpPoints
     - BaseStationSiliconLawFrontierShips
+    - BaseStationExpeditions
   noSpawn: true
   components:
     - type: Transform

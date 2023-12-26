@@ -21,3 +21,13 @@ Entries:
         type: Tweak
     id: 2
     time: '2023-12-24T00:24:17.893844126+00:00'
+  - author: Diatomic
+    changes:
+      - message: >-
+          Any ship type may now do expeditions if it has an expedition console.
+        type: Tweak
+      - message: >-
+          Computer boards for building your own expedition consoles are now available in the circuit vending machine.
+        type: Tweak
+    id: 3
+    time: '2023-12-26T14:56:07.413497910+00:00'
