@@ -45,3 +45,10 @@ Entries:
         type: Tweak
     id: 5
     time: '2023-12-26T23:15:48.838251039+00:00'
+  - author: Diatomic
+    changes:
+      - message: >-
+          Beds can now heal all brute, burns, and toxin damage, albeit more slowly than the healing that existed for some damage types before. This should be enough healing to just barely prevent you from dying from starvation if you're asleep in a bed.
+        type: Tweak
+    id: 6
+    time: '2023-12-27T20:11:59.541349198+00:00'
