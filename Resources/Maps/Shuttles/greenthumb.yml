@@ -352,7 +352,7 @@ entities:
       pos: 0.5,-2.5
       parent: 1
       type: Transform
-    - secondsUntilStateChange: -69825.734
+    - secondsUntilStateChange: -73006.86
       state: Opening
       type: Door
 - proto: AirlockEngineeringGlass
@@ -5340,7 +5340,8 @@ entities:
       type: Transform
   - uid: 756
     components:
-    - pos: 2.5,-14.5
+    - rot: -1.5707963267948966 rad
+      pos: 3.5,-14.5
       parent: 1
       type: Transform
   - uid: 757
@@ -5392,6 +5393,12 @@ entities:
       pos: 2.5,-0.5
       parent: 1
       type: Transform
+  - uid: 768
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: 2.5,-14.5
+      parent: 1
+      type: Transform
 - proto: TableCounterMetal
   entities:
   - uid: 766
@@ -5402,12 +5409,6 @@ entities:
   - uid: 767
     components:
     - pos: 7.5,-14.5
-      parent: 1
-      type: Transform
-  - uid: 768
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: 3.5,-14.5
       parent: 1
       type: Transform
 - proto: Thruster
