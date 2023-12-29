@@ -361,7 +361,7 @@ entities:
       pos: 0.5,-2.5
       parent: 1
       type: Transform
-    - secondsUntilStateChange: -81881.125
+    - secondsUntilStateChange: -82612.875
       state: Opening
       type: Door
 - proto: AirlockEngineeringGlass
@@ -927,28 +927,10 @@ entities:
     - links:
       - 659
       type: DeviceLinkSink
-  - uid: 865
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -1.5,1.5
-      parent: 1
-      type: Transform
-    - links:
-      - 654
-      type: DeviceLinkSink
-  - uid: 866
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -2.5,0.5
-      parent: 1
-      type: Transform
-    - links:
-      - 654
-      type: DeviceLinkSink
   - uid: 867
     components:
     - rot: 3.141592653589793 rad
-      pos: 2.5,1.5
+      pos: 2.5,0.5
       parent: 1
       type: Transform
     - links:
@@ -957,7 +939,7 @@ entities:
   - uid: 868
     components:
     - rot: 3.141592653589793 rad
-      pos: 3.5,0.5
+      pos: -1.5,0.5
       parent: 1
       type: Transform
     - links:
@@ -3478,6 +3460,18 @@ entities:
       pos: 10.5,-18.5
       parent: 1
       type: Transform
+  - uid: 827
+    components:
+    - rot: 3.141592653589793 rad
+      pos: -1.5,0.5
+      parent: 1
+      type: Transform
+  - uid: 831
+    components:
+    - rot: 3.141592653589793 rad
+      pos: 2.5,0.5
+      parent: 1
+      type: Transform
 - proto: Gyroscope
   entities:
   - uid: 475
@@ -4623,6 +4617,18 @@ entities:
       pos: -9.5,-14.5
       parent: 1
       type: Transform
+  - uid: 865
+    components:
+    - rot: 3.141592653589793 rad
+      pos: 2.5,0.5
+      parent: 1
+      type: Transform
+  - uid: 866
+    components:
+    - rot: 3.141592653589793 rad
+      pos: -1.5,0.5
+      parent: 1
+      type: Transform
 - proto: SignalButton
   entities:
   - uid: 650
@@ -4695,8 +4701,8 @@ entities:
       type: DeviceLinkSource
   - uid: 654
     components:
-    - desc: A button to open or close the cockpit windows.
-      name: cockpit window control
+    - desc: A button for opening or shutting the cockpit windows.
+      name: cockpit windows button
       type: MetaData
     - rot: 3.141592653589793 rad
       pos: 1.5,-2.5
@@ -4707,23 +4713,19 @@ entities:
         - Pressed: Toggle
         50:
         - Pressed: Toggle
+        867:
+        - Pressed: Toggle
         49:
         - Pressed: Toggle
         48:
         - Pressed: Toggle
         47:
         - Pressed: Toggle
+        868:
+        - Pressed: Toggle
         45:
         - Pressed: Toggle
         46:
-        - Pressed: Toggle
-        865:
-        - Pressed: Toggle
-        866:
-        - Pressed: Toggle
-        867:
-        - Pressed: Toggle
-        868:
         - Pressed: Toggle
       type: DeviceLinkSource
   - uid: 655
@@ -5941,12 +5943,6 @@ entities:
       type: Transform
 - proto: WallShuttleDiagonal
   entities:
-  - uid: 827
-    components:
-    - rot: 3.141592653589793 rad
-      pos: -1.5,0.5
-      parent: 1
-      type: Transform
   - uid: 828
     components:
     - pos: -2.5,0.5
@@ -5961,12 +5957,6 @@ entities:
     components:
     - rot: -1.5707963267948966 rad
       pos: 2.5,1.5
-      parent: 1
-      type: Transform
-  - uid: 831
-    components:
-    - rot: 1.5707963267948966 rad
-      pos: 2.5,0.5
       parent: 1
       type: Transform
   - uid: 832
