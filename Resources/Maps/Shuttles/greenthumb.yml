@@ -361,7 +361,7 @@ entities:
       pos: 0.5,-2.5
       parent: 1
       type: Transform
-    - secondsUntilStateChange: -80337.8
+    - secondsUntilStateChange: -81881.125
       state: Opening
       type: Door
 - proto: AirlockEngineeringGlass
@@ -926,6 +926,42 @@ entities:
       type: Transform
     - links:
       - 659
+      type: DeviceLinkSink
+  - uid: 865
+    components:
+    - rot: 3.141592653589793 rad
+      pos: -1.5,1.5
+      parent: 1
+      type: Transform
+    - links:
+      - 654
+      type: DeviceLinkSink
+  - uid: 866
+    components:
+    - rot: 3.141592653589793 rad
+      pos: -2.5,0.5
+      parent: 1
+      type: Transform
+    - links:
+      - 654
+      type: DeviceLinkSink
+  - uid: 867
+    components:
+    - rot: 3.141592653589793 rad
+      pos: 2.5,1.5
+      parent: 1
+      type: Transform
+    - links:
+      - 654
+      type: DeviceLinkSink
+  - uid: 868
+    components:
+    - rot: 3.141592653589793 rad
+      pos: 3.5,0.5
+      parent: 1
+      type: Transform
+    - links:
+      - 654
       type: DeviceLinkSink
 - proto: BoozeDispenser
   entities:
@@ -4680,6 +4716,14 @@ entities:
         45:
         - Pressed: Toggle
         46:
+        - Pressed: Toggle
+        865:
+        - Pressed: Toggle
+        866:
+        - Pressed: Toggle
+        867:
+        - Pressed: Toggle
+        868:
         - Pressed: Toggle
       type: DeviceLinkSource
   - uid: 655
