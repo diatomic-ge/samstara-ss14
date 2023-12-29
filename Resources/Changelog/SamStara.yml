@@ -52,3 +52,10 @@ Entries:
         type: Tweak
     id: 6
     time: '2023-12-27T20:11:59.541349198+00:00'
+  - author: Diatomic
+    changes:
+      - message: >-
+          The Greenthumb, an eco-friendly bar and restaurant, has been added to the shipyard.
+        type: Add
+    id: 7
+    time: '2023-12-29T01:35:44.123503668+00:00'
