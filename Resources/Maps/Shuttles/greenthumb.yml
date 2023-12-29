@@ -351,7 +351,7 @@ entities:
       pos: 0.5,-2.5
       parent: 1
       type: Transform
-    - secondsUntilStateChange: -79653.82
+    - secondsUntilStateChange: -79832.93
       state: Opening
       type: Door
 - proto: AirlockEngineeringGlass
@@ -2567,6 +2567,8 @@ entities:
       pos: 1.5,-16.5
       parent: 1
       type: Transform
+    - color: '#990000FF'
+      type: AtmosPipeColor
   - uid: 855
     components:
     - rot: 1.5707963267948966 rad
@@ -2896,6 +2898,8 @@ entities:
       pos: 1.5,-15.5
       parent: 1
       type: Transform
+    - color: '#990000FF'
+      type: AtmosPipeColor
   - uid: 411
     components:
     - rot: 1.5707963267948966 rad
@@ -2971,6 +2975,14 @@ entities:
     components:
     - rot: 1.5707963267948966 rad
       pos: 1.5,-6.5
+      parent: 1
+      type: Transform
+    - color: '#990000FF'
+      type: AtmosPipeColor
+  - uid: 864
+    components:
+    - rot: 3.141592653589793 rad
+      pos: 1.5,-14.5
       parent: 1
       type: Transform
     - color: '#990000FF'
