@@ -22,7 +22,7 @@ entities:
     components:
     - name: grid
       type: MetaData
-    - pos: 999.4844,999.5
+    - pos: 0.5,0.5
       parent: invalid
       type: Transform
     - chunks:
@@ -437,13 +437,13 @@ entities:
   - uid: 13
     components:
     - rot: -1.5707963267948966 rad
-      pos: -10.5,-17.5
+      pos: -10.5,-16.5
       parent: 1
       type: Transform
   - uid: 14
     components:
-    - rot: 1.5707963267948966 rad
-      pos: 11.5,-17.5
+    - rot: -1.5707963267948966 rad
+      pos: -10.5,-17.5
       parent: 1
       type: Transform
   - uid: 15
@@ -454,14 +454,14 @@ entities:
       type: Transform
   - uid: 16
     components:
-    - rot: -1.5707963267948966 rad
-      pos: -10.5,-16.5
+    - rot: 1.5707963267948966 rad
+      pos: 11.5,-16.5
       parent: 1
       type: Transform
   - uid: 17
     components:
     - rot: 1.5707963267948966 rad
-      pos: 11.5,-16.5
+      pos: 11.5,-17.5
       parent: 1
       type: Transform
 - proto: AirSensor
