@@ -3,7 +3,7 @@
   name: NC Greenthumb
   description: A self-sufficient, eco-friendly bar and restaurant, featuring its own hydroponics garden.
   price: 46000
-  category: Small
+  category: Medium
   group: Civilian
   shuttlePath: /Maps/Shuttles/greenthumb.yml
 
