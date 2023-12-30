@@ -211,7 +211,8 @@ entities:
           -1,-2:
             0: 65535
           0,-4:
-            0: 65535
+            0: 57343
+            1: 8192
           0,-3:
             0: 65533
             1: 2
@@ -367,7 +368,7 @@ entities:
       pos: 0.5,-2.5
       parent: 1
       type: Transform
-    - secondsUntilStateChange: -118905.51
+    - secondsUntilStateChange: -119759.06
       state: Opening
       type: Door
 - proto: AirlockEngineeringGlass
@@ -2280,40 +2281,6 @@ entities:
     - pos: -7.5,-13.5
       parent: 1
       type: Transform
-- proto: CrateNPCCow
-  entities:
-  - uid: 324
-    components:
-    - pos: 1.5,-11.5
-      parent: 1
-      type: Transform
-    - open: True
-      removedMasks: 28
-      type: EntityStorage
-    - fixtures:
-        fix1:
-          shape: !type:PolygonShape
-            radius: 0.01
-            vertices:
-            - -0.4,-0.4
-            - 0.4,-0.4
-            - 0.4,0.29
-            - -0.4,0.29
-          mask:
-          - Impassable
-          - MidImpassable
-          - HighImpassable
-          - LowImpassable
-          layer:
-          - BulletImpassable
-          - Opaque
-          density: 135
-          hard: True
-          restitution: 0
-          friction: 0.4
-      type: Fixtures
-    - isPlaceable: True
-      type: PlaceableSurface
 - proto: DefibrillatorCabinetFilled
   entities:
   - uid: 325
@@ -3693,7 +3660,7 @@ entities:
   entities:
   - uid: 493
     components:
-    - pos: -2.5,-6.5
+    - pos: -1.5,-7.5
       parent: 1
       type: Transform
 - proto: LockerFreezer
@@ -3976,6 +3943,12 @@ entities:
       type: DeviceLinkSink
 - proto: Railing
   entities:
+  - uid: 324
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: 4.5,-6.5
+      parent: 1
+      type: Transform
   - uid: 528
     components:
     - rot: 1.5707963267948966 rad
@@ -4062,6 +4035,12 @@ entities:
   - uid: 542
     components:
     - pos: -4.5,-20.5
+      parent: 1
+      type: Transform
+  - uid: 885
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: 4.5,-5.5
       parent: 1
       type: Transform
 - proto: RailingCorner
@@ -5465,6 +5444,13 @@ entities:
     - pos: 0.5,2.5
       parent: 1
       type: Transform
+- proto: SpawnMobCow
+  entities:
+  - uid: 884
+    components:
+    - pos: 4.5,-6.5
+      parent: 1
+      type: Transform
 - proto: SpawnPointBartender
   entities:
   - uid: 732
@@ -5683,6 +5669,16 @@ entities:
       pos: 2.5,-14.5
       parent: 1
       type: Transform
+  - uid: 882
+    components:
+    - pos: 1.5,-11.5
+      parent: 1
+      type: Transform
+  - uid: 883
+    components:
+    - pos: -0.5,-11.5
+      parent: 1
+      type: Transform
 - proto: TableCounterMetal
   entities:
   - uid: 768
@@ -5790,7 +5786,7 @@ entities:
   entities:
   - uid: 783
     components:
-    - pos: 3.5,-6.5
+    - pos: 2.5,-7.5
       parent: 1
       type: Transform
 - proto: VendingMachineSeeds
