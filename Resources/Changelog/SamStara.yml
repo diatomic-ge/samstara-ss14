@@ -64,5 +64,12 @@ Entries:
       - message: >-
           Rare technology disks now cost and sell for 1.5x as much as normal technology disks.
         type: Tweak
-    id: 7
+    id: 8
     time: '2024-01-14T21:34:06.686775900+00:00'
+  - author: Diatomic
+    changes:
+      - message: >-
+          Capacitors, manipulators, and matter bins may now be recycled in a material reclaimer for a portion of their material.
+        type: Tweak
+    id: 9
+    time: '2024-01-14T22:04:04.261970747+00:00'

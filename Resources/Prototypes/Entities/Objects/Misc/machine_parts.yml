@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: BaseStockPart
   name: stock part
   parent: BaseItem
@@ -30,6 +30,10 @@
     - type: Tag
       tags:
         - CapacitorStockPart
+    - type: PhysicalComposition
+      materialComposition:
+        Steel: 25
+        Plastic: 25
 
 - type: entity
   id: MicroManipulatorStockPart
@@ -43,6 +47,10 @@
     - type: MachinePart
       part: Manipulator
       rating: 1
+    - type: PhysicalComposition
+      materialComposition:
+        Steel: 25
+        Plastic: 25
 
 - type: entity
   id: MatterBinStockPart
@@ -56,6 +64,10 @@
     - type: MachinePart
       part: MatterBin
       rating: 1
+    - type: PhysicalComposition
+      materialComposition:
+        Steel: 25
+        Plastic: 25
 
 # Rating 2
 
@@ -70,6 +82,11 @@
       state: adv_capacitor
     - type: MachinePart
       rating: 2
+    - type: PhysicalComposition
+      materialComposition:
+        Steel: 40
+        Plastic: 40
+        Plasma: 35
 
 - type: entity
   id: NanoManipulatorStockPart
@@ -82,6 +99,11 @@
       state: nano_mani
     - type: MachinePart
       rating: 2
+    - type: PhysicalComposition
+      materialComposition:
+        Steel: 40
+        Plastic: 40
+        Plasma: 35
 
 - type: entity
   id: AdvancedMatterBinStockPart
@@ -94,6 +116,11 @@
       state: advanced_matter_bin
     - type: MachinePart
       rating: 2
+    - type: PhysicalComposition
+      materialComposition:
+        Steel: 40
+        Plastic: 40
+        Plasma: 35
 
 # Rating 3
 
@@ -108,6 +135,12 @@
       state: super_capacitor
     - type: MachinePart
       rating: 3
+    - type: PhysicalComposition
+      materialComposition:
+        Steel: 75
+        Plastic: 75
+        Plasma: 35
+        Gold: 35
 
 - type: entity
   id: PicoManipulatorStockPart
@@ -120,6 +153,12 @@
       state: pico_mani
     - type: MachinePart
       rating: 3
+    - type: PhysicalComposition
+      materialComposition:
+        Steel: 75
+        Plastic: 75
+        Plasma: 35
+        Gold: 35
 
 - type: entity
   id: SuperMatterBinStockPart
@@ -132,6 +171,12 @@
       state: super_matter_bin
     - type: MachinePart
       rating: 3
+    - type: PhysicalComposition
+      materialComposition:
+        Steel: 75
+        Plastic: 75
+        Plasma: 35
+        Gold: 35
 
 # Rating 4
 
@@ -146,6 +191,12 @@
       state: quadratic_capacitor
     - type: MachinePart
       rating: 4
+    - type: PhysicalComposition
+      materialComposition:
+        Steel: 75
+        Plastic: 75
+        Plasma: 35
+        Gold: 35
 
 - type: entity
   id: FemtoManipulatorStockPart
@@ -158,6 +209,12 @@
       state: femto_mani
     - type: MachinePart
       rating: 4
+    - type: PhysicalComposition
+      materialComposition:
+        Steel: 75
+        Plastic: 75
+        Plasma: 35
+        Gold: 35
 
 - type: entity
   id: BluespaceMatterBinStockPart
@@ -170,6 +227,12 @@
       state: bluespace_matter_bin
     - type: MachinePart
       rating: 4
+    - type: PhysicalComposition
+      materialComposition:
+        Steel: 75
+        Plastic: 75
+        Plasma: 35
+        Gold: 35
 
 # Subspace stock parts (REMOVE THESE)
 
