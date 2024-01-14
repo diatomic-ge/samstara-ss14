@@ -59,3 +59,10 @@ Entries:
         type: Add
     id: 7
     time: '2023-12-29T01:35:44.123503668+00:00'
+  - author: Diatomic
+    changes:
+      - message: >-
+          Rare technology disks now cost and sell for 1.5x as much as normal technology disks.
+        type: Tweak
+    id: 7
+    time: '2024-01-14T21:34:06.686775900+00:00'
