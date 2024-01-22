@@ -73,3 +73,10 @@ Entries:
         type: Tweak
     id: 9
     time: '2024-01-14T22:04:04.261970747+00:00'
+  - author: Diatomic
+    changes:
+      - message: >-
+          Hitting at least 300 slash damage will now gib you, in addition to the original 400 blunt damage.
+        type: Tweak
+    id: 9
+    time: '2024-01-20T22:50:00.193466564+00:00'
