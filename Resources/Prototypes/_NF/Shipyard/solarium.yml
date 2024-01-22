@@ -2,7 +2,7 @@
   id: Solarium
   name: NR Solarium
   description: A vessel outfitted for botanical research. Features multiple isolatable growing bays for hazardous specimens.
-  price: 30435
+  price: 30565
   category: Medium
   group: Civilian
   shuttlePath: /Maps/Shuttles/solarium.yml
