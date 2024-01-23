@@ -1987,6 +1987,13 @@ entities:
     - pos: 1.5,9.5
       parent: 1
       type: Transform
+- proto: Dropper
+  entities:
+  - uid: 545
+    components:
+    - pos: -4.042033,-2.4497337
+      parent: 1
+      type: Transform
 - proto: GasPassiveVent
   entities:
   - uid: 122
