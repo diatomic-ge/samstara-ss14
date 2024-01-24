@@ -777,7 +777,7 @@ entities:
   entities:
   - uid: 244
     components:
-    - pos: -3.3755002,-2.3532271
+    - pos: -4.4812784,-4.373751
       parent: 1
       type: Transform
 - proto: BoxFolderClipboard
@@ -1991,7 +1991,14 @@ entities:
   entities:
   - uid: 545
     components:
-    - pos: -4.042033,-2.4497337
+    - pos: -4.4812784,-3.0258558
+      parent: 1
+      type: Transform
+- proto: FaxMachineShip
+  entities:
+  - uid: 546
+    components:
+    - pos: 2.5,9.5
       parent: 1
       type: Transform
 - proto: GasPassiveVent
@@ -2883,22 +2890,29 @@ entities:
   entities:
   - uid: 193
     components:
-    - pos: -2.392889,-2.4531536
+    - pos: -4.3583474,-3.7161632
       parent: 1
       type: Transform
   - uid: 194
     components:
-    - pos: -2.4095435,-2.153374
+    - pos: -4.3678036,-3.423019
       parent: 1
       type: Transform
   - uid: 196
     components:
-    - pos: -2.7925954,-2.4531536
+    - pos: -4.623122,-3.6972508
       parent: 1
       type: Transform
   - uid: 200
     components:
-    - pos: -2.7925954,-2.1367197
+    - pos: -4.60421,-3.39465
+      parent: 1
+      type: Transform
+- proto: KitchenReagentGrinder
+  entities:
+  - uid: 557
+    components:
+    - pos: -2.5,-2.5
       parent: 1
       type: Transform
 - proto: LockerBotanistFilled
